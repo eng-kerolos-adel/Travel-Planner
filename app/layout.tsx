@@ -33,6 +33,7 @@ export default async function RootLayout({
       >
         <Navbar session={session} />
         {children}
+        <Analytics />
       </body>
     </html>
   );
